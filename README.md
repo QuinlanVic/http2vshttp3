@@ -1,8 +1,10 @@
 # Intro to Web
 
 - Browser wars
-- DNS
+- DNS (convert Domain name -> IP address)
 - IP
+    - IPv4
+    - IPv6
 - Connections
     - TCP
         - 3 way hand shake
@@ -16,7 +18,16 @@
 
 ## TCP
 1. 3 way hand shake
-2. SYNC -> SYN ACK -> ACK
+2. SYN -> SYN ACK -> ACK
+3. For secure data transfer, slower due to acknowledgement
+
+## UDP
+1. For faster data transfer
+2. Send with no acknowledgement
+3. Less lag
+
+
+
 
 
 ## Python
@@ -31,3 +42,5 @@ print("Hello, World")
 ```python
 print(2 + 2)
 ```
+
+[Mark-down cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
